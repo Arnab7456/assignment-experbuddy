@@ -3,13 +3,11 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Crown } from "lucide-react";
-
+import Crown from "./Crown"; // Assuming you have a Crown icon component
 const SpecialOfferUI = () => {
   return (
     <Card className="max-w-5xl mx-auto bg-[#EABAFF] p-6">
       <CardContent className="p-0 grid md:grid-cols-2 gap-8">
-        {/* Left side */}
         <div className="flex flex-col justify-center">
           <div className="flex items-center mb-3">
             <Crown className="h-6 w-6 text-purple-800" />
@@ -30,8 +28,6 @@ const SpecialOfferUI = () => {
             <p className="text-sm text-purple-800">Head Of sales Departments</p>
           </div>
         </div>
-        
-        {/* Right side */}
         <div className="flex flex-col justify-center">
           <h2 className="text-2xl font-bold text-purple-900 mb-4">
             30% OFF & 150% Cashback<br />
@@ -45,10 +41,8 @@ const SpecialOfferUI = () => {
           <div className="mb-4">
             <div className="relative w-full">
               <div className="absolute left-4 flex items-center gap-2 h-full">
-                {/* US Flag Circle */}
                 <div className="w-6 h-6 rounded-full overflow-hidden flex items-center justify-center bg-gray-100">
                   <div className="w-full h-full relative">
-                    {/* US flag - simplified version */}
                     <div className="absolute inset-0 bg-white">
                       <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-blue-800"></div>
                       <div className="absolute top-0 h-1/6 w-full bg-red-600"></div>

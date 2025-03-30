@@ -16,13 +16,13 @@ export default function HowItWorksFlow() {
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 relative">
-        <div className="relative rounded-xl bg-white p-6 shadow-sm">
-          <div className="absolute -left-4 -top-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border-4 border-white bg-purple-100 text-center">
+        <div className="relative rounded-xl bg-white p-6  shadow-sm">
+          <div className="absolute left-2 top-2 flex h-16  w-12 flex-col items-center justify-center rounded-xl border-2 border-purple-500  text-center">
             <div className="text-xs font-medium text-purple-600">Step</div>
             <div className="text-xl font-bold text-purple-600">01</div>
           </div>
 
-          <div className="mb-4 mt-8">
+          <div className="mb-4 mt-12">
             <h3 className="text-xl font-bold text-gray-900">Fill in a brief</h3>
             <p className="mt-2 text-sm text-gray-600">
               Tell us what you need help with, describe your project
@@ -45,12 +45,12 @@ export default function HowItWorksFlow() {
           </div>
         </div>
         <div className="relative rounded-xl bg-white p-6 shadow-sm">
-          <div className="absolute -left-4 -top-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border-4 border-white bg-purple-100 text-center">
+        <div className="absolute left-2 top-2 flex h-16  w-12 flex-col items-center justify-center rounded-xl border-2 border-purple-500  text-center">
             <div className="text-xs font-medium text-purple-600">Step</div>
             <div className="text-xl font-bold text-purple-600">02</div>
           </div>
 
-          <div className="mb-4 mt-8">
+          <div className="mb-4 mt-12">
             <h3 className="text-xl font-bold text-gray-900">
               Choose an expert
             </h3>
@@ -76,12 +76,12 @@ export default function HowItWorksFlow() {
         </div>
         <div className="relative rounded-xl bg-white p-6 shadow-sm md:col-span-2 flex">
           <div className="flex-1 pr-6">
-            <div className="absolute -left-4 -top-4 flex h-16 w-16 flex-col items-center justify-center rounded-full border-4 border-white bg-purple-100 text-center">
-              <div className="text-xs font-medium text-purple-600">Step</div>
-              <div className="text-xl font-bold text-purple-600">03</div>
-            </div>
+          <div className="absolute left-2 top-2 flex h-16  w-12 flex-col items-center justify-center rounded-xl border-2 border-purple-500  text-center">
+            <div className="text-xs font-medium text-purple-600">Step</div>
+            <div className="text-xl font-bold text-purple-600">03</div>
+          </div>
 
-            <div className="mb-4 mt-8">
+            <div className="mb-4 mt-12">
               <h3 className="text-xl font-bold text-gray-900">
                 Get It Done On Time
               </h3>
