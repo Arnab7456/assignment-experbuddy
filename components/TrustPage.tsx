@@ -1,7 +1,8 @@
+'use client'
 import { Star } from "lucide-react";
 import Image from "next/image";
 
-export default function TrustBadges() {
+export function TrustBadges() {
   return (
     <div className="mx-auto my-8 max-w-4xl rounded-xl bg-white p-6 shadow-sm">
       <div className="flex flex-wrap items-center justify-between gap-4">
