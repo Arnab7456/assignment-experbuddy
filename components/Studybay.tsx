@@ -92,7 +92,7 @@ export default function Carousel() {
 //   Studybay anywhere with ExpertBuddy
 
   return (
-    <div className="w-full flex flex-col items-center gap-4 p-6  my-16 rounded-lg">
+    <div className="w-full flex flex-col items-center gap-4 p-6  my-10 rounded-lg">
          <h2 className="text-3xl font-bold text-gray-900 mb-4">
           <span className="relative inline-block top-[-10px] ">
             <CrownIcon className="absolute h-8 w-8 text-purple-600 -top-8 left-1/2 -translate-x-1/2" />

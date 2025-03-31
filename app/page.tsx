@@ -6,6 +6,7 @@ import ReachOut from "@/components/ReachOut";
 import Studybay from "@/components/Studybay";
 import ClaimOffer from "@/components/Claimoffer";
 import FAQPage from "@/components/Faq";
+import Reviews from "@/components/Reviews";
 export default function Home() {
   return (
     <div className="bg-[#F5F3EF]">
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorksFlow />
       <ReachOut />
       <Studybay />
+      <Reviews />
       <ClaimOffer />
       <FAQPage />
     </div>

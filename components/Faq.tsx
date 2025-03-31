@@ -9,7 +9,7 @@ import {
 import CrownIcon from "./Crown";
 export default function FAQPage() {
   return (
-    <div className="text-center mt-4 md:mt-10">
+    <div className="text-center pb-10 bg-inherit mt-4 md:mt-10">
       
       <h2 className="text-3xl font-bold text-gray-900 p-6">
           <span className="relative inline-block top-[-10px] ">
