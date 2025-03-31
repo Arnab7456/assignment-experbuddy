@@ -44,7 +44,7 @@ A modern Next.js-based web application for educational services built with TypeS
 
 - **Framework:** Next.js 14
 - **Language:** TypeScript
-- **Styling:** CSS/Tailwind CSS
+- **Styling:** Shadcn, CSS/Tailwind CSS
 - **Package Manager:** pnpm
 - **Linting:** ESLint
 - **Code Formatting:** Prettier
@@ -60,10 +60,14 @@ A modern Next.js-based web application for educational services built with TypeS
 │   ├── Navbar.tsx
 │   ├── Hero.tsx
 │   ├── Reviews.tsx
-│   └── ...
+│   └── Studybay
+│   ├── Reviews
+│   └── Claimoffer
+|    
 ├── lib/                 # Utility functions and helpers
 ├── public/             # Static assets
 └── next.config.ts      # Next.js configuration
+
 ```
 
 ## 🛠️ Setup & Installation
